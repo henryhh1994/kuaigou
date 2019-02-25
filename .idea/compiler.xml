@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="kuaigou_basic_util" />
+        <module name="kuaigou_config_server_1299" />
+        <module name="kuaigou_eureka_server_7001" />
+        <module name="kuaigou_plat_interface" />
+        <module name="kuaigou_plat_service_8001" />
+        <module name="kuaigou_zuul_server_9527" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="kuaigou_basic_parent" target="1.8" />
+      <module name="kuaigou_basic_util" target="1.8" />
+      <module name="kuaigou_config_server_1299" target="1.8" />
+      <module name="kuaigou_eureka_server_7001" target="1.8" />
+      <module name="kuaigou_parent" target="1.8" />
+      <module name="kuaigou_plat_interface" target="1.8" />
+      <module name="kuaigou_plat_parent" target="1.8" />
+      <module name="kuaigou_plat_service_8001" target="1.8" />
+      <module name="kuaigou_zuul_server_9527" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

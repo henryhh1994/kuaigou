@@ -1,0 +1,18 @@
+server:
+  port: 9527
+spring:
+  application:
+    name: MICROSERVICE-ZUUL-GATEWAY
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka
+  instance:
+    instance-id: gateway-9527.com
+    prefer-ip-address: true
+zuul:
+  prefix: /kuaigou # 访问前缀
+  routes:
+    kuaigouEmployee.serviceId: employee-provider
+    kuaigouEmployee.path: /employee/** # 匹配 /employee开头的请求映射到user-provider服务上
+  ignored-services: "*"  #*忽略所有的直接使用服务名的访问
